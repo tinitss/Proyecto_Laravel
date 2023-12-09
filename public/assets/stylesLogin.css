@@ -1,0 +1,128 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('../images/fondo.jpg');
+
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+    width: auto;
+    height: auto;
+}
+
+.card{
+height: auto;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #71b32d;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header {
+color: white;
+text-align: center;
+margin-top: 20px;
+}
+
+.social_icon{
+display: block;
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #71b32d;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}   
+
+.row.align-items-center{
+    margin-top: 10px;
+}
+.remember{
+color: white;
+margin-top: 10px;
+}
+
+.listo{
+background-color: #71b32d;
+width: auto;
+height: auto;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Centrar horizontalmente */
+}
+
+.card-footer{
+    margin-top: -50px
+    ;
+}
+.login_btn {
+    color: black;
+    background-color: #71b32d;
+    width: 100px;
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+.login_btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.registrarse{
+    color: white    
+}
+  
+.register_redireccionar a{
+        color: #3498db; /* Color azul suave, puedes cambiarlo según tus preferencias */
+        text-decoration: none; /* Elimina el subrayado del enlace */
+        transition: color 0.3s ease; /* Agrega una transición de color suave */
+        margin-left: 10px;
+}
+    
+.register_redireccionar a:hover {
+        color: #66a3e0; /* Cambia el color al pasar el ratón sobre el enlace */
+}
+
+.olvidar a{
+    color: #3498db; /* Color azul suave, puedes cambiarlo según tus preferencias */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    transition: color 0.3s ease; /* Agrega una transición de color suave */
+    margin-left: 10px;
+}
+
+.olvidar a:hover {
+    color: #66a3e0; /* Cambia el color al pasar el ratón sobre el enlace */
+}
